@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.teslacraft8.notp.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockPlacementMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
